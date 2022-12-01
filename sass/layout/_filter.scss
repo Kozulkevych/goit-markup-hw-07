@@ -1,0 +1,39 @@
+/* ----------button filter---------- */
+
+.filter {
+    display: flex;
+    column-gap: 8px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.filter__btn {
+    background-color: var(--secondary-light-bg-color);
+    color: var(--title-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+    text-align: center;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 4px;
+    outline: transparent;
+    min-width: 73px;
+    padding: 6px 22px;
+
+    transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
+        box-shadow 250ms var(--timing-function);
+    &:focus,
+    &:hover {
+        background-color: var(--accent-color);
+        color: var(--secondary-ligh-text-color);
+        box-shadow: var(--secondary-btn--box-shadow-color);
+    }
+}
+
+
+.filter__btn .filter__btn--curent {
+    background-color: var(--accent-color);
+}
