@@ -21,7 +21,7 @@
 }
 
 .nav__link,
-.navfooterContacts__contacts__link {
+.navContacts {
     padding: 32px 0;
     display: flex;
 }
@@ -80,17 +80,17 @@
     color: var(--accent-color);
 }
 
-.navfooterContacts__contacts {
+.navContacts {
     margin-left: auto;
     display: flex;
     align-items: center;
 }
 
-.navfooterContacts__contacts__item:not(:last-child) {
+.navrContacts__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.navfooterContacts__contacts__link {
+.navContacts__link {
     color: var(--primary-light-text-color);
     font-size: 14px;
     font-weight: 500;
@@ -102,17 +102,17 @@
     transition: color 250ms var(--timing-function);
 }
 
-.navfooterContacts__contacts__link:hover,
-.navfooterContacts__contacts__link:focus {
+.navContacts__link:hover,
+.navContacts__link:focus {
     color: var(--accent-color);
 }
 
-.navfooterContacts__contacts__link:hover .navfooterContacts__contacts__icon,
-.navfooterContacts__contacts__link:focus .navfooterContacts__contacts__icon {
+.navContacts__link:hover .navfooterContacts__contacts__icon,
+.navContacts__link:focus .navfooterContacts__contacts__icon {
     fill: currentColor;
 }
 
-.navfooterContacts__contacts__icon {
+.navContacts__icon {
     fill: var(--primary-light-text-color);
     margin-right: 10px;
     transition: fill 250ms var(--timing-function);
