@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     margin: 0 auto;
 
     color: var(--secondary-ligh-text-color);
@@ -24,5 +25,9 @@
     &:hover,
     &:focus {
         background-color: var(--bg-btn-color);
+    }
 }
+.btn__icon {
+    fill: var(--secondary-ligh-text-color);
+    margin-left: 10px;
 }

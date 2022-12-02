@@ -1,6 +1,6 @@
 /* ----------button filter---------- */
 
-.filter {
+.filter__list {
     display: flex;
     column-gap: 8px;
     margin-bottom: 50px;
@@ -23,8 +23,7 @@
     min-width: 73px;
     padding: 6px 22px;
 
-    transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
-        box-shadow 250ms var(--timing-function);
+    transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
     &:focus,
     &:hover {
         background-color: var(--accent-color);
@@ -32,8 +31,9 @@
         box-shadow: var(--secondary-btn--box-shadow-color);
     }
 }
+  .filter__btn_curent {
+      background-color: var(--accent-color);
+  }
+  
 
 
-.filter__btn .filter__btn--curent {
-    background-color: var(--accent-color);
-}

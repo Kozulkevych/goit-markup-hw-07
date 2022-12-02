@@ -7,18 +7,11 @@
     line-height: calc(31 / 26);
 }
 
-.pageNav__logo {
-    display: flex;
-    padding: 24px 0 25px 0;
-    margin-right: 94px;
-}
-.logo_dark {
+.logo__right-part_dark {
     color: var(--primary-dark-text-color);
 }
-.footer__logo {
-    display: block;
-    margin-bottom: 20px;
-}
-.logo_light {
+
+.logo__right-part_light {
     color: var(--secondary-ligh-text-color);
 }
+
