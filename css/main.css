@@ -128,13 +128,13 @@ img {
   fill: var(--secondary-ligh-text-color);
 }
 
-.socials__link_light {
+.socials__link--light {
   background-color: var(--primary-light-bg-color);
   fill: var(--primary-icon-color);
   transition: background-color 250ms var(--timing-function);
 }
 
-.socials__link_dark {
+.socials__link--dark {
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--secondary-ligh-text-color);
   transition: background-color 250ms var(--timing-function);
@@ -158,11 +158,11 @@ img {
   line-height: 1.1923076923;
 }
 
-.logo__right-part_dark {
+.logo__right-part--dark {
   color: var(--primary-dark-text-color);
 }
 
-.logo__right-part_light {
+.logo__right-part--light {
   color: var(--secondary-ligh-text-color);
 }
 
@@ -411,10 +411,10 @@ img {
   bottom: -1px;
 }
 
-.nav__link_current {
+.nav__link--current {
   color: var(--accent-color);
 }
-.nav__link_current::after {
+.nav__link--current::after {
   content: "";
   width: 100%;
   height: 4px;
